@@ -1,0 +1,85 @@
+body{
+    background-color:beige;
+   height:100%;
+    display:flex;
+    margin: 60px;
+    justify-content:center;
+    align-items: center;
+    
+}
+.countainer{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border:10px solid #e8f57a;
+    padding: 50px 20px;
+    height: 500px;
+    width: 400px;
+    background-color:rgb(239, 239, 210);
+    border-radius: 5%;
+
+}
+
+
+#value{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+    font-size:10em;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 500px;
+    width: 400px;
+    background-color: rgb(233, 233, 63);
+    border-radius: 5%;
+ 
+}
+  
+
+#button-container{
+
+    padding: 10px 5px;
+    text-align: center;
+    
+}
+
+.buttons{
+    padding:10px 50px;
+    align-self: flex-start;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:black;
+    background-color: rgba(215, 226, 9, 0.268);
+    border-radius: 10px;
+    cursor:pointer;
+    transition:all;
+    border: #ccc;
+    text-transform:uppercase;
+}
+.buttons:hover{
+    background-color:rgba(131, 137, 30, 0.268);
+
+}
+.heading{
+
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    
+}
+.p{
+   
+    font-size: 1.2em;
+    color:#84895b;
+
+}
+
+#tencount{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bolder;
+
+}
